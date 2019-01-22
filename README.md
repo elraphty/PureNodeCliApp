@@ -1,5 +1,5 @@
-# PURE NODE PIZZZA API
-An api using raw node, that allow users to place pizza orders, users should send an items payload which will be an array of objects and the objects
+# PURE NODE PIZZZA API AND CLI APP
+An api using raw node, that allow users to place pizza orders, users should send an items payload which will be an array of objects and users can also interact with the app via command line
 
 ## Built With
   ### Node Core Api
@@ -11,6 +11,7 @@ An api using raw node, that allow users to place pizza orders, users should send
     * path module
     * util module
     * debug module
+    * readline module
 
 # Installation.
   * Install [Nodejs](https://nodejs.org/en/download/)
@@ -30,6 +31,11 @@ An api using raw node, that allow users to place pizza orders, users should send
 - A user can check his current cart content via the carts get endpoint
 - A user can empty his cart via the carts delete endpoint
 - A user can place his pizza order via the order endpoint
+- A user can get information about the app from cli by typing man or help in the cli
+- A user can get register users from cli by typing list users command
+- A User can get more user info from the cli by typing more user info --userId command
+- A user can get orders from cli by typing list orders command
+- A User can get more order info from the cli by typing more order info --orderId command
 
 ## Available APIs
 <table>
